@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_holder_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:elevation="8dp"
+    android:paddingBottom="@dimen/view_margin_1x"
+    android:layout_marginEnd="@dimen/view_margin_1x"
+    android:layout_marginStart="@dimen/view_margin_1x"
+    android:layout_marginBottom="@dimen/view_margin_1x">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/img_main_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_marginTop="@dimen/view_margin_min"
+        android:layout_marginStart="@dimen/view_margin_1x"
+        android:layout_marginBottom="@dimen/view_margin_min"
+        android:layout_toRightOf="@id/img_main_image"
+        android:text="@string/sample_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_below="@id/tv_title"
+        android:layout_marginStart="@dimen/view_margin_1x"
+        android:layout_marginBottom="@dimen/view_margin_min"
+        android:layout_toRightOf="@id/img_main_image"
+        android:text="@string/sample_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_pubdate"
+        android:layout_below="@id/tv_author"
+        android:layout_marginStart="@dimen/view_margin_1x"
+        android:layout_marginBottom="@dimen/view_margin_min"
+        android:layout_toRightOf="@id/img_main_image"
+        android:text="@string/sample_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_summary"
+        android:text="@string/sample_text_medium"
+        android:padding="@dimen/view_margin_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
